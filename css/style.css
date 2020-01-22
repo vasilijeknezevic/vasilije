@@ -1,0 +1,247 @@
+body{
+ top: 0px;
+ left: 0px;
+ width: 1440px;
+ height: 998px;
+ background: transparent url('../pics/background.svg') 0% 0% no-repeat padding-box;
+ background-position: bottom;
+ background-size: 100%;
+
+ 
+}
+.index{
+    display: flex;
+    margin:auto;
+}
+
+.first{
+    margin-left: 165px;
+   
+}
+.first hr{
+    top: 321px;
+left: 167px;
+height: 0px;
+border: 1px solid #DADADA;
+opacity: 1;
+}
+.first #logo img{
+    top: 45px;
+    left: 165px;
+    width: 254px;
+    height: 97px;
+    margin-top:45px;
+}
+#prvi{
+    top: 197px;
+left: 165px;
+width: 632px;
+height: 104px;
+    font-family: 'Playfair Display', serif;
+    color:#505050;
+        text-align: left;
+        font-size:36px;
+    
+}
+#drugi{
+    font-family: 'Open Sans', sans-serif;
+top: 397px;
+left: 165px;
+width: 632px;
+height: 88px;
+text-align: left;
+letter-spacing: 0;
+font-size: 32px;
+}
+#treci{
+    font-family: 'Open Sans', sans-serif;
+    top: 36px;
+left: 0px;
+width: 602px;
+height: 137px;
+text-align: left;
+letter-spacing: 0;
+font-size: 24px;
+}
+
+.second{
+ top: 94px;
+left: 830px;
+width: 445px;
+height: 710px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 14px #00000022;
+border-radius: 3px;
+opacity: 1;
+margin-top: 94px;
+margin-left:33px;
+float: right;
+position:center;
+
+
+}
+#forma{
+    margin-top: 30px;
+}
+
+
+.second input{
+    top: 154px;
+left: 888px;
+width: 330px;
+height: 60px;
+border: 1px solid #DADADA;
+border-radius: 3px;
+opacity: 1;
+margin-left: 58px;
+
+position:center;
+font-size: 18px;
+}
+.second button{
+    top: 711px;
+left: 946px;
+width: 213px;
+height: 60px;
+background: #00B8B0 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+position: center;
+margin-left:133.43px;
+transition: 0.3s;
+}
+.second button:hover{
+    background-color: #0065b8;
+    color: white;
+}
+
+.second label{
+    width: 491px;
+height: 21px;
+text-align: left;
+letter-spacing: 0;
+color: #505050;
+opacity: 1;
+margin-left: 58px;
+margin-top:126px;
+font-size:18px;
+}
+
+.drustvene{
+    margin-left: 1129px;
+    margin-top: 30.04px;
+    display:flex;
+    
+}
+.drustvene img{
+    display: inline-block;
+    top: 930px;
+    left: 1129px;
+    width: 38px;
+    height: 38px;   
+    transition: 0.3s;
+}
+.drustvene img:hover{
+    width:45px;
+    height: 45px;
+}
+
+@media(max-width: 800px){
+    body{
+        height: 100%;
+    }
+    .index{
+        flex-direction: column;
+        height: 100%;
+        margin-right: 0px;
+        width:100%;
+    }
+    
+    .first{
+         width: 30%;
+         height: auto;
+         text-align: left;
+         margin-left: 0px;
+
+    }
+    .first #logo img{
+       margin-left: 45px;
+        margin-top:45px;
+    }
+    #prvi{
+    width: 90%;
+        font-family: 'Playfair Display', serif;
+        color:#505050;
+            text-align: left;
+            font-size:19px;
+        
+    }
+    #drugi{
+        font-family: 'Open Sans', sans-serif;
+        width: 90%;
+    text-align: left;
+    letter-spacing: 0;
+    font-size:19px;
+    }
+    #treci{
+        font-family: 'Open Sans', sans-serif;
+        width: 90%;
+    text-align: left;
+    letter-spacing: 0;
+    font-size:19px;
+    }
+    .second{
+        width: 30%;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 15px;
+         margin-left: 5px;
+    }
+    
+.second input{
+width: 230px;
+height: 40px;
+border: 1px solid #DADADA;
+border-radius: 3px;
+opacity: 1;
+margin-left: 38px;
+
+position:center;
+font-size: 18px;
+}
+.second button{
+    top: 711px;
+left: 946px;
+width: 213px;
+height: 60px;
+background: #00B8B0 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+position: center;
+margin-left:133.43px;
+transition: 0.3s;
+}
+.second button:hover{
+    background-color: #0065b8;
+    color: white;
+}
+
+.second label{
+    width: 491px;
+height: 21px;
+text-align: left;
+letter-spacing: 0;
+color: #505050;
+opacity: 1;
+margin-left: 58px;
+margin-top:126px;
+font-size:18px;
+}
+  
+    .drustvene{
+        flex-direction: row;
+        height: auto;
+    }
+}
+
+   
