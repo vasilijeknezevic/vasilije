@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
+        <title>Prvi zadatak</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="css/style.css"/>
-<title>Prvi Zadatak</title>
-</head>
-<body>
-    <div class="index">
-        <div class="first">
-            <div id="logo"><img src="pics/logo.svg"></div>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
         
-        <div id="prvi">
-        <p>U čast odlazeće 2018. godine Amplitudo poklanja besplatan website!<p> </div>
-        <hr>
-        <div id="drugi">
-        <p>Popunite formu i prijavite se za <strong>besplatan</strong> website u iznosu od  <span style="color: #00B8B0">2000€!</span></p></div>
-        <div id="treci">
-        <p>Prijave traju do <span style="color: #00B8B0">25.12.2018. u 12 sati</span>, kada ćemo izvačiti dobitnika, a možda ime Vaše firme bude u srećnoj koverti!
-            <br>
-            Počnite 2019. godinu sa novom web prezentacijom!</p></div>
-    </div>
-    <div class="second">
-        <form id="forma">
-                <label>Naziv firme:</label><br>
-                <input type="text" name="nazivFirme" value="Amplitudo doo"><br> <br> <br>
-                <label>Kontakt osoba:</label> <br>
-                <input type="text" name="nazivFirme" value="Marko Markovic"><br> <br> <br>
-                <label>Email:</label> <br>
-                <input type="text" name="nazivFirme" value="marko.markovic@gmail.com"><br> <br> <br>
-                <label>Broj telefona:</label><br>
-                <input type="text" name="nazivFirme" value="067 567 134"><br> <br> <br>
-                <label>Website:</label> <br>
-                <input type="text" name="nazivFirme" value="www.amplitudo.me"><br> <br> <br>
-                <button type="submit" value="submit">PRIJAVITE SE</button>
-        </form>
-    </div>
-    </div>
-    <div class="drustvene">
-            <a href="https://www.facebook.com/AmplitudoCG/"><img src="pics/facebook.svg"></a>
-            <a href="https://www.linkedin.com/company/amplitudo-d-o-o-"><img src="pics/linkedin.svg"></a>
-            <a href="https://www.instagram.com/amplitudo.me/?hl=sr"><img src="pics/instagram.svg"></a>
+    </head>
+    <body>
+        <div class="index">
+           
+            <div class="first">
+               <img src="pics/logo.svg" alt="logo">
+                
+                <div class="prvi">
+                    <h2>U čast odlazeće 2018. godine Amplitudo poklanja besplatan website!</h2>
+                 </div>
+                   <hr>
+                  <div class="drugi">
+                      <p>Popunite formu i prijavite se za <strong><em>besplatan</em></strong> 
+                      website u iznosu od <font color="#00B8B0"> 2000€!</font></p>
+                  </div>
+                  <div class="treci">
+                      <p><br>Prijave traju do <font color="#00B8B0">25.12.2018. u 12 sati</font>, kada ćemo izvačiti dobitnika, a možda ime Vaše firme bude u srećnoj koverti!
+                         <br><br> Počnite 2019. godinu sa novom web prezentacijom!</p>
+                  </div>
+            </div>
+       <div class="second">
+           <form id="forma" method="post" action="#">
+               <label for="naziv">Naziv firme<br></label>
+               <input name="naziv" type="text" class="forma" placeholder="Naziv firme"><br>
+               <br>
+               <label for="kontakt">Kontakt osoba<br></label>
+               <input name="kontakt" type="text" class="forma" placeholder="Kontakt osoba"><br>
+               <br>
+               <label for="e-mail">Email<br></label>
+               <input name="email" type="email" class="forma" placeholder="Email"><br>
+               <br>
+               <label for="telefon">Broj telefona<br></label>
+               <input name="telefon" type="text" class="forma" placeholder="Broj telefona"><br>
+               <br>
+               <label for="website">Website<br></label>
+               <input name="website" type="text" class="forma" placeholder="Website"><br>
+               <br>
+               <button type="submit">PRIJAVITE SE</button>
+         </form>
         </div>
-</body>
+        </div>
+            <div class="drustvene">
+                <a href="https://www.facebook.com/AmplitudoCG/" class="facebook" target="_blank">
+                    <img src="pics/facebook.svg" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/company/amplitudo-d-o-o"- class="linkedin" target="_blank">
+                    <img src="pics/linkedin.svg" alt="Linkedin"></a>
+                <a href="https://www.instagram.com/amplitudo.me/?hl=sr" class="instagram" target="_blank">
+                    <img src="pics/instagram.svg" alt="Instagram"></a>
+            </div>
+    </body>
 </html>
