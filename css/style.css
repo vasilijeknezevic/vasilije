@@ -64,13 +64,14 @@ body {
 .forma{
     font-family: Roboto-Medium;
     padding: 15px;
-    font-size: 18px;
+    font-size: 15px;
     text-align: left;
-    width: 88%;
-    height: 25px;
+    width: 90%;
+    height: 10px;
     border: 1px solid #DADADA;
     border-radius: 3px;
     opacity: 1;
+
     
 }
 label{
@@ -140,7 +141,7 @@ height: 48px;
         height: auto;
     }
     .first{
-         width: 90%;
+         width: 100%;
          height: auto;
          text-align: center;
     }
